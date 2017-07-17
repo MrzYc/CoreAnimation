@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,18 +22,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Jz-UE-kIF">
-                                <rect key="frame" x="57" y="206" width="260" height="255"/>
+                                <rect key="frame" x="87.5" y="233.5" width="200" height="200"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="255" id="9CI-MF-tF9"/>
-                                    <constraint firstAttribute="width" constant="260" id="Uhc-gX-PUd"/>
+                                    <constraint firstAttribute="height" constant="200" id="9CI-MF-tF9"/>
+                                    <constraint firstAttribute="width" constant="200" id="Uhc-gX-PUd"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="6Jz-UE-kIF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0Jm-de-sbw"/>
-                            <constraint firstItem="6Jz-UE-kIF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="fAe-od-vYj"/>
+                            <constraint firstItem="6Jz-UE-kIF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="DlO-i6-Yra"/>
+                            <constraint firstItem="6Jz-UE-kIF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="G1q-KO-Tte"/>
                         </constraints>
                     </view>
                     <connections>

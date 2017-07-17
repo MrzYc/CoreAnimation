@@ -19,9 +19,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    UIImage *image = [UIImage imageNamed:@"snowman"];
+    UIImage *image = [UIImage imageNamed:@"snowman240"];
     self.layerView.layer.contents = (__bridge id)image.CGImage;
-    self.layerView.layer.contentsGravity = kCAGravityResizeAspect;
+    self.layerView.layer.contentsGravity = kCAGravityCenter;
 }
 
 

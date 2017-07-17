@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2427E4F61F1CAFD100728148 /* snowman.png in Resources */ = {isa = PBXBuildFile; fileRef = 2427E4F51F1CAFD100728148 /* snowman.png */; };
+		2427E4F81F1CC5C600728148 /* snowman240.png in Resources */ = {isa = PBXBuildFile; fileRef = 2427E4F71F1CC5C600728148 /* snowman240.png */; };
 		7E263E3D1F1BAF07000D0E4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E263E3C1F1BAF07000D0E4F /* main.m */; };
 		7E263E401F1BAF07000D0E4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E263E3F1F1BAF07000D0E4F /* AppDelegate.m */; };
 		7E263E431F1BAF07000D0E4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E263E421F1BAF07000D0E4F /* ViewController.m */; };
@@ -14,10 +16,11 @@
 		7E263E481F1BAF07000D0E4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E263E471F1BAF07000D0E4F /* Assets.xcassets */; };
 		7E263E4B1F1BAF07000D0E4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E263E491F1BAF07000D0E4F /* LaunchScreen.storyboard */; };
 		7E263E561F1BB13B000D0E4F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E263E551F1BB13B000D0E4F /* QuartzCore.framework */; };
-		7E263E5A1F1BB4B7000D0E4F /* snowman.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E263E591F1BB4B7000D0E4F /* snowman.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2427E4F51F1CAFD100728148 /* snowman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snowman.png; sourceTree = "<group>"; };
+		2427E4F71F1CC5C600728148 /* snowman240.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snowman240.png; sourceTree = "<group>"; };
 		7E263E381F1BAF07000D0E4F /* CoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E263E3C1F1BAF07000D0E4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7E263E3E1F1BAF07000D0E4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,7 +32,6 @@
 		7E263E4A1F1BAF07000D0E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E263E4C1F1BAF07000D0E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E263E551F1BB13B000D0E4F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		7E263E591F1BB4B7000D0E4F /* snowman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snowman.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +70,8 @@
 				7E263E3F1F1BAF07000D0E4F /* AppDelegate.m */,
 				7E263E411F1BAF07000D0E4F /* ViewController.h */,
 				7E263E421F1BAF07000D0E4F /* ViewController.m */,
-				7E263E591F1BB4B7000D0E4F /* snowman.png */,
+				2427E4F71F1CC5C600728148 /* snowman240.png */,
+				2427E4F51F1CAFD100728148 /* snowman.png */,
 				7E263E441F1BAF07000D0E4F /* Main.storyboard */,
 				7E263E471F1BAF07000D0E4F /* Assets.xcassets */,
 				7E263E491F1BAF07000D0E4F /* LaunchScreen.storyboard */,
@@ -153,9 +156,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2427E4F61F1CAFD100728148 /* snowman.png in Resources */,
 				7E263E4B1F1BAF07000D0E4F /* LaunchScreen.storyboard in Resources */,
 				7E263E481F1BAF07000D0E4F /* Assets.xcassets in Resources */,
-				7E263E5A1F1BB4B7000D0E4F /* snowman.png in Resources */,
+				2427E4F81F1CC5C600728148 /* snowman240.png in Resources */,
 				7E263E461F1BAF07000D0E4F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,6 +334,7 @@
 				7E263E511F1BAF07000D0E4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
