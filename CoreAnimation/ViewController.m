@@ -22,6 +22,8 @@
     UIImage *image = [UIImage imageNamed:@"snowman240"];
     self.layerView.layer.contents = (__bridge id)image.CGImage;
     self.layerView.layer.contentsGravity = kCAGravityCenter;
+    
+    self.layerView.layer.contentsScale = image.scale;
 }
 
 
