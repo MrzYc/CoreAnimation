@@ -24,6 +24,13 @@
     self.layerView.layer.contentsGravity = kCAGravityCenter;
     
     self.layerView.layer.contentsScale = image.scale;
+    
+    NSLog(@"测试....");
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [super touchesBegan:touches withEvent:event];
+    
 }
 
 
